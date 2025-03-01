@@ -6,7 +6,3 @@ def selectionSort(arr):
             if arr[j] < arr[min_index]:
                 min_index = j
         arr[i], arr[min_index] = arr[min_index], arr[i]
-
-arr= [5,4,7,2,9,3]
-selectionSort(arr)
-print(arr)
